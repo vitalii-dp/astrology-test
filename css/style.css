@@ -109,7 +109,7 @@ https://templatemo.com/tm-516-known
 
   section {
     position: relative;
-    padding: 50px 0;
+    padding: 20px 0;
   }
 
   #about img {
@@ -212,7 +212,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   .custom-navbar {
-    background: rgb(216, 233, 248);
+    background: navy;
     border-top: 1px solid navy;
     border-bottom: 0;
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -253,7 +253,7 @@ https://templatemo.com/tm-516-known
 
   .custom-navbar .nav li a {
     line-height: 40px;
-    color: black;
+    color: white;
     padding-right: 22px;
     padding-left: 22px;
   }
@@ -264,13 +264,13 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .nav li a:hover {
-    background-color: navy;
-    color: #ffffff;
+    background-color: white;
+    color: black;
   }
 
   .custom-navbar .nav li.active > a {
-    background-color: navy;
-    color: #ffffff;
+    background-color: white;
+    color: black;
   }
 
   .custom-navbar .navbar-toggle {
@@ -413,10 +413,11 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background: #3f51b5;
+    background: navy;
   }
 
-  #contact h2 {
+  #contact h2,
+  #contact li {
     color: #ffffff;
   }
 
@@ -482,7 +483,7 @@ https://templatemo.com/tm-516-known
       padding: 60px 0;
     }
 
-    .home-slider .item {
+    .item {
       background-position: center center;
     }
 
